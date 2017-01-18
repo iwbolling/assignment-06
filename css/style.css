@@ -25,3 +25,17 @@
   margin: 0%;
   width: 100%;
 }
+
+.uparrow{
+  background-color: rgb(45,45,45);
+  color: grey;
+  font-size: 32px;
+  height: 40px;
+  margin: 32px auto 32px auto;
+  text-align: center;
+  width: 40px;
+}
+
+.searchbar{
+  text-align: center;
+}
