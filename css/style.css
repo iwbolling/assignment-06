@@ -39,3 +39,40 @@
 .searchbar{
   text-align: center;
 }
+
+/*Tablet mode*/
+@media screen and (min-width: 768px){
+  .header{text-align: left;}
+  .header img{margin: 16px;}
+  .header h4{
+    display: inline-block;;
+    position: absolute;
+    right: 100px;
+    text-align: right;
+    top: 18px;}
+  .header p{
+    border-left: 2px solid lightgrey;
+    display: inline-block;
+    padding-left: 16px;
+    position: absolute;
+    right: 32px;
+    text-align: right;
+    top: 24px;}
+  .images{width: 33%;}
+  .searchbar{
+    bottom: 64px;
+    margin: 16px;
+    position: relative;
+    text-align: left;
+  }
+}
+
+/*Desktop mode*/
+@media screen and (min-width: 992px){
+  .images{width: 25%}
+  .uparrow{display: none;}
+  .searchbar{
+    bottom: 0;
+    text-align: left;
+  }
+}
