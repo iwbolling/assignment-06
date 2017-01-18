@@ -1,1 +1,27 @@
 *{box-sizing: border-box;}
+
+#fullpage{font-family: sans-serif;}
+
+.header{
+  color: rgb(45,45,45);
+  text-align: center;}
+
+.header img{
+  margin: 48px 16px 16px 16px;
+}
+
+.header h4, .header p{
+  margin-bottom: 40px;
+}
+
+.columnscontainer{font-size: 0;}
+
+.images{
+  display: inline-block;
+  width: 50%;
+}
+
+.images img{
+  margin: 0%;
+  width: 100%;
+}
